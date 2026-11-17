@@ -8,6 +8,7 @@ On an iPhone or iPad, open the address in Safari, then Share > Add to Home
 Screen, and use it from the home-screen icon. Each person's data stays on
 their own phone; nothing is sent to this website.
 
-`index.html` is a copy of `field-crm/standalone/field-crm.html` from the
-private `Hi` repository, where the source code lives. To update the site,
-replace `index.html` with a newer build of that file.
+These files are built by `npm run build:site` in the private `Hi`
+repository, where the source code lives (`field-crm/standalone`): the page,
+its home-screen icons and the web app manifest. To update the site, copy a
+newer build's files here.
